@@ -17,7 +17,7 @@ nemesispb = { path = "../../packages/python/nemesispb", develop = true }
 nemesiscommon = { path = "../../packages/python/nemesiscommon", develop = true }
 prometheus-async = { extras = ["aiohttp"], version = "^22.2.0" }
 elasticsearch = "^8.6.2"
-aiohttp = "^3.9.3"
+aiohttp = "^3.10.2"
 httpx = "^0.23.3"
 asyncpg = "^0.27.0"
 winacl = "^0.1.7"
@@ -38,7 +38,7 @@ lief = "^0.12.1"
 py7zr = "^0.20.4"
 pypdf = "^3.5.2"
 colorama = "^0.4.6"
-python-multipart = "^0.0.6"
+python-multipart = "^0.0.7"
 rich = "^13.3.3"
 structlog = "^23.1.0"
 aiosqlite = "^0.19.0"
@@ -53,7 +53,7 @@ streaming-form-data = "^1.15.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.2"
-black = "^22.6.0"
+black = "^24.3.0"
 flake8 = "^5.0.4"
 mypy = "^0.971"
 
